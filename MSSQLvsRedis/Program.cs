@@ -146,6 +146,7 @@ namespace SqlRedisTestApp
             cn.Open();
             var cmd = new SqlCommand("SELECT v FROM kv WHERE k = @k", cn);
             cmd.Parameters.Add("@k", SqlDbType.UniqueIdentifier);
+            cmd.Prepare();
             Random rnd = new Random();
             int max_count = m_data.Count + 1;
             long min_time_mksec = long.MaxValue;
