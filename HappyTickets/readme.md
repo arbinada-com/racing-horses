@@ -1,6 +1,6 @@
-# Happy tickets test
+# Happy tickets
 
-Test description and results: https://blog.arbinada.com/category/01532.html
+Basic compiler optimization and code generation test. Full description and results: https://blog.arbinada.com/category/01532.html
 
 The brute-force test should iterate through all number combinations and calculate the count of happy tickets.
 
@@ -12,7 +12,7 @@ Relative results
 |-------------------|-------------------------|
 | C/C++             | 1     |
 | Rust              | 1     |
-| Asembler          | 2     |
+| Assembler         | 2     |
 | FreePascal        | 3     |
 | C# (Mono)         | 2.2   |
 | C# .NET 6         | 3.2   |
